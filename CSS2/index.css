@@ -15,7 +15,7 @@ body{
     display: flex;
     justify-content: center;
 }
-/* kaas */
+
 .head{
     text-decoration: none;
     color: #fff;
@@ -32,6 +32,21 @@ body{
     border-radius: 20px;
     margin-top: 10px;
     box-shadow: 20px 20px 3px black;
+}
+.foto1{
+    height: 100px;
+    width: 30%;
+    background-color: #add1eb;
+}
+.foto2{
+    height: 100px;
+    width: 30%;
+    background-color: #add1eb;
+}
+.foto3{
+    height: 100px;
+    width: 30%;
+    background-color: #add1eb;
 }
 .logo:hover{
     background-color: white;
@@ -105,7 +120,42 @@ body{
     gap: 80px;
     flex-direction: column;
 }
-
+.row6{
+    height: 200px;
+    width: 90%;
+    background-color: #ffffff00;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    gap: 295px;
+    animation: fadeInAnimation ease 3s;
+}
+.row7{
+    height: 300px;
+    width: 100%;
+    background-color: #add1eb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Lato', sans-serif;
+    border-radius: 20px;
+}
+.row8{
+    height: 300px;
+    width: 100%;
+    background-color: #add1eb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Lato', sans-serif;
+    border-radius: 20px;
+}
+.pinkgoose{
+    height: 200px;
+    border-radius: 10px;
+}
 .info:hover{
     background-color: #6fa3c9;
 }
