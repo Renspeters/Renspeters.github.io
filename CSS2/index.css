@@ -11,7 +11,7 @@ body{
 .header{
     height: 50px;
     width: 100%;
-    background-color: #371DA3;
+    background-color: #d5d5d5;
     display: flex;
     justify-content: center;
 }
@@ -22,8 +22,12 @@ body{
     display: flex;
     flex-direction: row;
     align-items: center;
+    justify-content: center;
     gap: 20px;
-    width: 30%;
+    width: 80%;
+    background-color: #6fa3c9;
+    border-radius: 15px;
+
 }
 .logo{
     height: 260px;
@@ -52,18 +56,21 @@ body{
     background-color: white;
 }
 .blok{
-    height: 595px;
+    height: auto;
     width: 100%;
-    background-color: #39927aad;
+    background-color: #d5d5d5;
+    display: flex;
+    justify-content: center;
     
 }
 .blok2{
-    height: 595px;
+    height: auto;
     width: 80%;
     background-color: #39927A;
     margin-left: 140px;
     border-radius: 50px 50px, 0px, 0px;
     display: flex;
+    justify-content: center;
     flex-direction: column;
     padding: 30px;
 }
@@ -71,11 +78,9 @@ body{
     height: 595px;
     width: 80%;
     background-color: #39927A;
-    margin-left: 140px;
     border-radius: 50px 50px, 0px, 0px;
     display: flex;
     flex-direction: column;
-    padding: 30px;
 }
 .blok3{
     height: 595px;
@@ -121,18 +126,18 @@ body{
     flex-direction: column;
 }
 .row6{
-    height: 200px;
-    width: 90%;
+    height: auto;
+    width: 1100px;
     background-color: #ffffff00;
     display: flex;
-    justify-content: center;
-    flex-direction: row;
-    gap: 295px;
+    flex-wrap: wrap;
+    column-gap: 100px;
+    row-gap: 100px;
     animation: fadeInAnimation ease 3s;
 }
 .row7{
     height: 300px;
-    width: 100%;
+    width: 500px;
     background-color: #add1eb;
     display: flex;
     justify-content: center;
@@ -143,7 +148,7 @@ body{
 }
 .row8{
     height: 300px;
-    width: 100%;
+    width: 500px;
     background-color: #add1eb;
     display: flex;
     justify-content: center;
@@ -421,7 +426,7 @@ body{
 }
 .contact{
     text-decoration: none;
-    color: #fff;
+    color: #000000;
     font-family: 'Lato', sans-serif;
     height: 40px;
     width: 70px;
@@ -429,7 +434,7 @@ body{
     display: flex;
     justify-content: center;
     border-style: dashed; 
-    border-color: #fff;
+    border-color: #000000;
 }
 .inputmessage{
     background-color: #ffffff;
@@ -502,7 +507,7 @@ body{
     display: flex;
     justify-content: center;
     border-style: dashed; 
-    border-color: #fff;
+    border-color: #000000;
 }
 .wiebenik{
     text-decoration: none;
@@ -514,7 +519,7 @@ body{
     display: flex;
     justify-content: center;
     border-style: dashed; 
-    border-color: #fff;
+    border-color: #000000;
 }
 .cv{
     height: 85px;
@@ -566,6 +571,7 @@ body{
     background-color: #371DA3;
     margin-top: 0px;
     justify-content: center;
+    position: fixed;
     display: flex;
     align-items: center;
     font-family: 'Lato', sans-serif;
