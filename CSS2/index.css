@@ -35,7 +35,6 @@ body{
     background-color: #add1eb;
     border-radius: 20px;
     margin-top: 10px;
-    box-shadow: 20px 20px 3px black;
 }
 .foto1{
     height: 100px;
@@ -64,9 +63,9 @@ body{
     
 }
 .blok2{
-    height: auto;
+    height: 600px;
     width: 80%;
-    background-color: #39927A;
+    background-color: #39927a00;
     margin-left: 140px;
     border-radius: 50px 50px, 0px, 0px;
     display: flex;
@@ -77,7 +76,7 @@ body{
 .blok4{
     height: 595px;
     width: 80%;
-    background-color: #39927A;
+    background-color: #39927a00;
     border-radius: 50px 50px, 0px, 0px;
     display: flex;
     flex-direction: column;
@@ -85,8 +84,7 @@ body{
 .blok3{
     height: 595px;
     width: 80%;
-    background-color: #39927A;
-    margin-left: 140px;
+    background-color: #39927a00;
     border-radius: 50px 50px, 0px, 0px;
     display: flex;
     justify-content: center;
@@ -167,7 +165,7 @@ body{
 .info{
     height: 200px;
     width: 300px;
-    background-color: #add1eb;
+    background-color: #50aaea;
     border-radius: 20px;
     margin-top: 30px;
     text-align: left;
@@ -180,7 +178,6 @@ body{
     text-decoration: none;
     border-style: dashed;
     border-color: #add1eb;
-    box-shadow: 20px 20px 3px black;
 }
 .inf02:hover{
     background-color: #6fa3c9;
@@ -188,7 +185,7 @@ body{
 .inf02{
     height: 200px;
     width: 300px;
-    background-color: #add1eb;
+    background-color: #50aaea;
     border-radius: 20px;
     margin-top: 30px;
     text-align: left;
@@ -200,7 +197,6 @@ body{
     text-decoration: none;
     border-style: dashed;
     border-color: #add1eb;
-    box-shadow: 20px 20px 3px black;
 }
 .info3:hover{
     background-color: #6fa3c9;
@@ -208,7 +204,7 @@ body{
 .info3{
     height: 200px;
     width: 300px;
-    background-color: #add1eb;
+    background-color: #50aaea;
     border-radius: 20px;
     margin-top: 30px;
     text-align: left;
@@ -220,12 +216,11 @@ body{
     text-decoration: none;
     border-style: dashed;
     border-color: #add1eb;
-    box-shadow: 20px 20px 3px black;
 }
 .info4{
     height: 200px;
     width: 300px;
-    background-color: #add1eb;
+    background-color: #50aaea;
     border-radius: 20px;
     margin-top: 30px;
     text-align: left;
@@ -237,7 +232,7 @@ body{
     text-decoration: none;
     border-style: dashed;
     border-color: #add1eb;
-    box-shadow: 20px 20px 3px black;
+
 }
 .info5{
     height: 50px;
@@ -264,7 +259,6 @@ body{
     text-decoration: none;
     border-style: dashed;
     border-color: #add1eb;
-    box-shadow: 20px 20px 3px black;
 }
 .info6:hover{
     background-color: #6fa3c9;
@@ -284,7 +278,6 @@ body{
     text-decoration: none;
     border-style: dashed;
     border-color: #add1eb;
-    box-shadow: 20px 20px 3px black;
 }
 .info7:hover{
     background-color: #6fa3c9;
@@ -298,19 +291,18 @@ body{
 .contactbox{
     height: 445px;
     width: 500px;
-    background-color: #add1eb;
+    background-color: #50aaea;
     border-radius: 20px;
     animation: fadeInAnimation ease 3s;
     font-family: 'Lato', sans-serif;
     justify-content: center;
     display: flex;
     flex-direction: column;
-    box-shadow: 20px 20px 10px black;
     border-style: dashed;
     border-color: #6fa3c9;
 }
 .contactbox1{
-    height: 300px;
+    height: 360px;
     width: 400px;
     background-color: #add1eb;
     border-radius: 20px;
@@ -320,7 +312,6 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 10px;
 }
 .info8{
     text-decoration: none;
@@ -344,7 +335,6 @@ body{
     border-color: #add1eb;
     justify-content: space-around;
     animation: fadeIn ease 3s;
-    box-shadow: 20px 20px 3px black;
     border-style: dashed;
     border-color: #6fa3c9;
 }
@@ -363,7 +353,6 @@ body{
     text-decoration: none;
     justify-content: space-around;
     animation: fadeInAnimation ease 3s;
-    box-shadow: 20px 20px 3px black;
     border-style: dashed;
     border-color: #6fa3c9;
 }
@@ -379,7 +368,6 @@ body{
     display: flex;
     align-items: center;
     animation: fadeIn ease 3s;
-    box-shadow: 20px 20px 3px black;
     border-style: dashed;
     border-color: #6fa3c9;
 }
@@ -426,7 +414,7 @@ body{
 }
 .contact{
     text-decoration: none;
-    color: #000000;
+    color: #ffffff;
     font-family: 'Lato', sans-serif;
     height: 40px;
     width: 70px;
@@ -537,7 +525,6 @@ body{
     border-color: #add1eb;
     align-items: center;
     animation: fadeIn ease 3s;
-    box-shadow: 20px 20px 3px black;
     border-style: dashed; 
     border-color: #6fa3c9;
 }
@@ -568,7 +555,7 @@ body{
 .footer{
     height: 50px;
     width: 100%;
-    background-color: #371DA3;
+    background-color: #6fa3c9;
     margin-top: 0px;
     justify-content: center;
     position: fixed;
@@ -579,9 +566,10 @@ body{
 .footer2{
     height: 50px;
     width: 100%;
-    background-color: #371DA3;
+    background-color: #6fa3c9;
     margin-top: 0px;
     justify-content: center;
+    position: fixed;
     display: flex;
     align-items: center;
     font-family: 'Lato', sans-serif;
@@ -589,9 +577,10 @@ body{
 .footer3{
     height: 50px;
     width: 100%;
-    background-color: #371DA3;
+    background-color: #6fa3c9;
     margin-top: 0px;
     justify-content: center;
+    position: fixed;
     display: flex;
     align-items: center;
     font-family: 'Lato', sans-serif;
@@ -599,9 +588,10 @@ body{
 .footer4{
     height: 50px;
     width: 100%;
-    background-color: #371DA3;
+    background-color: #6fa3c9;
     margin-top: 0px;
     justify-content: center;
+    position: fixed;
     display: flex;
     align-items: center;
     font-family: 'Lato', sans-serif;
