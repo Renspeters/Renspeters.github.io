@@ -26,7 +26,7 @@ body{
     gap: 20px;
     width: 80%;
     background-color: #6fa3c9;
-    border-radius: 15px;
+    border-radius: 0px 0px 11px 11px;
 
 }
 .logo{
@@ -66,7 +66,6 @@ body{
     height: 600px;
     width: 80%;
     background-color: #39927a00;
-    margin-left: 140px;
     border-radius: 50px 50px, 0px, 0px;
     display: flex;
     justify-content: center;
@@ -165,7 +164,7 @@ body{
 .info{
     height: 200px;
     width: 300px;
-    background-color: #50aaea;
+    background-color: #add1eb;
     border-radius: 20px;
     margin-top: 30px;
     text-align: left;
@@ -185,7 +184,7 @@ body{
 .inf02{
     height: 200px;
     width: 300px;
-    background-color: #50aaea;
+    background-color: #add1eb;
     border-radius: 20px;
     margin-top: 30px;
     text-align: left;
@@ -204,7 +203,7 @@ body{
 .info3{
     height: 200px;
     width: 300px;
-    background-color: #50aaea;
+    background-color: #add1eb;
     border-radius: 20px;
     margin-top: 30px;
     text-align: left;
@@ -220,7 +219,7 @@ body{
 .info4{
     height: 200px;
     width: 300px;
-    background-color: #50aaea;
+    background-color: #add1eb;
     border-radius: 20px;
     margin-top: 30px;
     text-align: left;
