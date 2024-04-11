@@ -63,7 +63,7 @@ body{
     
 }
 .blok2{
-    height: 600px;
+    height: 1000px;
     width: 80%;
     background-color: #39927a00;
     border-radius: 50px 50px, 0px, 0px;
@@ -99,8 +99,8 @@ body{
 .row2{
     display: flex;
     justify-content: left;
-    margin-left: 70px;
-    gap: 58px;
+    margin-left: 85px;
+    gap: 71px;
     animation: fadeInAnimation ease 3s;
 }
 .row3{
@@ -131,6 +131,7 @@ body{
     column-gap: 100px;
     row-gap: 100px;
     animation: fadeInAnimation ease 3s;
+    margin-top: 50px;
 }
 .row7{
     height: 300px;
@@ -568,7 +569,6 @@ body{
     background-color: #6fa3c9;
     margin-top: 0px;
     justify-content: center;
-    position: fixed;
     display: flex;
     align-items: center;
     font-family: 'Lato', sans-serif;
@@ -579,7 +579,6 @@ body{
     background-color: #6fa3c9;
     margin-top: 0px;
     justify-content: center;
-    position: fixed;
     display: flex;
     align-items: center;
     font-family: 'Lato', sans-serif;
