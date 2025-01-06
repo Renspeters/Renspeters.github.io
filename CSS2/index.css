@@ -12,7 +12,9 @@
     border: 2px solid rgba(255, 255, 255, 0.18);
 }
 
-
+.background-1{
+    background-image: url(/images/dark-blue.webp);
+}
 
 
 
