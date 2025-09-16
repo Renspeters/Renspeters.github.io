@@ -13,58 +13,66 @@
     
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
-        <div class="container-fluid navigatie">
-          <a class="navbar-brand" href="#">Navbar</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="wiebenik.html">Over mij</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="watdoeik.html">Wat doe ik?</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="contact.html">Contact</a>
-              </li>
-            </ul>
-          </div>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light shadow-sm mb-4">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="index.html">Rens Peters</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link active" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="wiebenik.html">Over mij</a></li>
+                    <li class="nav-item"><a class="nav-link" href="watdoeik.html">Wat doe ik?</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                </ul>
+            </div>
         </div>
-      </nav>
-    <div class="blok"> 
-        <div class="blok2">
-            <div class="row6">
-                <div class="row7">
-                    <h2>PinkGoose Project</h2>
-                    <img src="/images/pinkgooseproject.jpg" class="pinkgoose">
-                </div>
-                <div class="row8">
-                    <h2>Netflix Project</h2>
-                    <img src="/images/netflix.jpg" class="pinkgoose">
-                </div>
-                <div class="row8">
-                    <h2>Telle's Hairstyling Project</h2>
-                    <img src="/images/screencapture-127-0-0-1-5500-index-html-2025-01-06-13_09_13.png" class="pinkgoose">
-                </div>
-                <div class="row8">
-                    <h2>Pure Egg Project</h2>
-                    <img src="/images/pureegg.jpg" class="pinkgoose">
+    </nav>
+    <main class="container">
+        <h1 class="mb-4">Projecten</h1>
+        <div class="row g-4">
+            <div class="col-md-6 col-lg-3">
+                <div class="card h-100 shadow-sm">
+                    <img src="/images/pinkgooseproject.jpg" class="card-img-top" alt="PinkGoose Project">
+                    <div class="card-body">
+                        <h5 class="card-title">PinkGoose Project</h5>
+                        <span class="fw-bold text-danger">Afgerond</span>
+                    </div>
                 </div>
             </div>
-            
+            <div class="col-md-6 col-lg-3">
+                <div class="card h-100 shadow-sm">
+                    <img src="/images/netflix.jpg" class="card-img-top" alt="Netflix Project">
+                    <div class="card-body">
+                        <h5 class="card-title">Netflix Project</h5>
+                        <span class="fw-bold text-danger">Afgerond</span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-3">
+                <div class="card h-100 shadow-sm">
+                    <img src="/images/screencapture-127-0-0-1-5500-index-html-2025-01-06-13_09_13.png" class="card-img-top" alt="Telle's Hairstyling Project">
+                    <div class="card-body">
+                        <h5 class="card-title"><a href="https://www.telleshairstyling.nl/" target="_blank" id="link-telles">Telle's Hairstyling</a> Project</h5>
+                        <span class="fw-bold text-danger">Afgerond</span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-3">
+                <div class="card h-100 shadow-sm">
+                    <img src="/images/pure_egg_new.jpg" class="card-img-top" alt="Pure Egg Project">
+                    <div class="card-body">
+                        <h5 class="card-title">Pure Egg Project</h5>
+                        <span class="fw-bold text-success">Actief</span>
+                    </div>
+                </div>
+            </div>
         </div>
-        
-        
-    </div>
-   <div class="footer3">
-    <h3>©2023 - RPWebdesigning</h3>
-   </div>
-   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    </main>
+    <footer class="bg-primary text-white text-center py-3 mt-5 fixed-bottom">
+        <small>©2025 - Rens Peters</small>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>

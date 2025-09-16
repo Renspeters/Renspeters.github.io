@@ -5,6 +5,16 @@
     
 }
 
+#link-telles{
+    text-decoration: underline;
+    color: #000000;
+    
+}
+
+#link-telles:hover{
+    color: #6fa3c9;
+}
+
 .navigatie{
     /* background-color: #6fa3c9; */
     backdrop-filter: blur(30px);
@@ -22,17 +32,9 @@
     padding: 60px; 
 }
 
-
-
-
-
-
-
-
-
-body{
+body {
     background-color: #f2f3f0;
-    
+    font-family: 'Lato', 'Nunito', sans-serif;
 }
 .header{
     height: 50px;
@@ -382,6 +384,31 @@ body{
     animation: fadeInAnimation ease 3s;
     border-style: dashed;
     border-color: #6fa3c9;
+}
+.card {
+    border-radius: 18px;
+    background-color: #add1eb;
+    border: none;
+}
+.card-title {
+    font-weight: 700;
+    color: #39927a;
+}
+.card-text, .card-body ul {
+    color: #222;
+    font-size: 1.1rem;
+}
+.btn-primary {
+    background-color: #6fa3c9;
+    border: none;
+}
+.btn-primary:hover {
+    background-color: #39927a;
+}
+footer {
+    background-color: #6fa3c9 !important;
+    color: #fff;
+    font-family: 'Lato', sans-serif;
 }
 
 

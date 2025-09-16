@@ -13,94 +13,68 @@
     
 </head>
 <body>
-    <div class="container-fluid full-screen-banner background-1">
-        <nav class="navbar navbar-expand-lg bg-body-tertiary">
-            <div class="container-fluid navigatie">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light shadow-sm mb-4">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="index.html">Rens Peters</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav">
-                <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="index.html">Home</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="wiebenik.html">Over mij</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="watdoeik.html">Wat doe ik?</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="contact.html">Contact</a>
-                </li>
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link active" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="wiebenik.html">Over mij</a></li>
+                    <li class="nav-item"><a class="nav-link" href="watdoeik.html">Wat doe ik?</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
                 </ul>
             </div>
-            </div>
-        </nav>
-        <!-- <div class="header">
-            <div class="head">
-                <a href="index.html" class="index">Portfolio</a>
-                <a href="wiebenik.html" class="wiebenik">Wie ben ik?</a>
-                <a href="watdoeik.html" class="index">Wat doe ik?</a>
-                <a href="contact.html" class="contact">Contact</a>
-            </div>
-        </div> -->
-        <div class="container-md">
-            <div class="row">
-                <div class="col">
-                    <div class="info">
-                        <h3>Over mij</h3>
-                        <h4>Rens Peters, 18 jaar</h4>
-                        <a href="wiebenik.html" class="info8">Lees meer</a>
+        </div>
+    </nav>
+    <main class="container">
+        <div class="row g-4">
+            <div class="col-md-6 col-lg-3">
+                <div class="card h-100 shadow-sm">
+                    <div class="card-body">
+                        <h5 class="card-title">Over mij</h5>
+                        <p class="card-text">Rens Peters, 18 jaar</p>
+                        <a href="wiebenik.html" class="btn btn-primary">Lees meer</a>
                     </div>
                 </div>
-                <div class="col"></div>
-                <div class="col">
-                    <!-- <div class="logoblok">
-                        <img src="images/LogoW2.png">
-                    </div> -->
+            </div>
+            <div class="col-md-6 col-lg-3">
+                <div class="card h-100 shadow-sm">
+                    <div class="card-body">
+                        <h5 class="card-title">Wat doe ik?</h5>
+                        <p class="card-text">Werkervaring & Opleidingen</p>
+                        <a href="watdoeik.html" class="btn btn-primary">Lees meer</a>
+                    </div>
                 </div>
             </div>
-            <div class="row">
-                <div class="col">
-                    <div class="inf02">
-                        <h3>Wat doe ik?</h3>
-                    <h4>Werkervaring</h4>
-                    <h4>Opleidingen</h4>
-                    <a href="watdoeik.html" class="info8">Lees meer</a>
+            <div class="col-md-6 col-lg-3">
+                <div class="card h-100 shadow-sm">
+                    <div class="card-body">
+                        <h5 class="card-title">Contact</h5>
+                        <a href="contact.html" class="btn btn-primary">Neem contact op</a>
                     </div>
                 </div>
-                <div class="col">
-                    <div class="info3">
-                    <h3>Contact</h3>
-                    <a href="contact.html" class="info8">Neem contact op</a>
-                    </div>
-                </div>
-                <div class="col">
-                    <div class="info4">
-                        <h3>Projecten</h3>
-                        <div class="info5">
-                            <h4>Telle's Hairstyling:</h4>
-                            <a href="https://www.telleshairstyling.nl/" class="link" target="_blank">Telle's Hairstyling</a>
-                        </div>
-                        <div class="info5">
-                            <h4>Pink Goose</h4>
-                        </div>
-                        <div class="info5">
-                            <h4>Netflix login page</h4>
-                        </div>
-                        <div class="info5">
-                            <h4></h4>
-                        </div>
-                        <a href="projecten.html" class="info8" >Lees meer</a>
+            </div>
+            <div class="col-md-6 col-lg-3">
+                <div class="card h-100 shadow-sm">
+                    <div class="card-body">
+                        <h5 class="card-title">Projecten</h5>
+                        <ul class="list-unstyled mb-2">
+                            <li><a href="https://www.telleshairstyling.nl/" target="_blank">Telle's Hairstyling</a></li>
+                            <li>Pink Goose</li>
+                            <li>Netflix login page</li>
+                        </ul>
+                        <a href="projecten.html" class="btn btn-primary">Lees meer</a>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
-   <div class="fixed-bottom footer">
-    <h3>©2023 - RPWebdesigning</h3>
-   </div>
-   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    </main>
+    <footer class="bg-primary text-white text-center py-3 mt-5 fixed-bottom">
+        <small>©2025 - Rens Peters</small>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
